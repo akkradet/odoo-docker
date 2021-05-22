@@ -33,6 +33,7 @@ services:
 
   pgadmin:
     container_name: pgadmin
+    restart: unless-stopped
     image: dpage/pgadmin4
     #   user : pgadmin4@pgadmin.org, passwd : admin
     environment:
