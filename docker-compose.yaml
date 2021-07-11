@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
   odoo:
-    image: poonlap/odoo-th:latest
+    image: akkradet/odoo-th:14.0
     container_name: odoo
     restart: unless-stopped
     links:
