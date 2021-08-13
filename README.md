@@ -1,3 +1,6 @@
 # odoo-docker
 
-docker-compose up -d
+Start the container:
+``` sh
+$ docker-compose up
+```
