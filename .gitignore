@@ -1,9 +1,0 @@
-odoo-web-data/*
-odoo-db-data/* 
-.env
-docker-compose.override.yml
-*.pyc
-.vscode/
-README.md
-env-sample
-include_utils.sh
